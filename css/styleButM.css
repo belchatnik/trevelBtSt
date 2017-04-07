@@ -1,0 +1,236 @@
+/* +++++++++++++++++++++++++++++++++++++++++++
+   comments
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*
+  text-shadow: 1px 1px 0px #d8b045;
+  -webkit-box-shadow: #ffc001 0px 1px 1px;
+  -moz-box-shadow: #ffc001 0px 1px 1px;
+  box-shadow: #ffc001 0px 1px 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url("/css/PIE.htc");
+*/
+
+@font-face {
+	font-family: OpenSans; /* Имя шрифта */
+	src: url(fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
+}
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+  default style
+++++++++++++++++++++++++++++++++++++++++++++*/
+* {
+	outline: none !important;
+}
+.col-xs {
+	overflow-x: hidden;
+}
+html {
+}
+body {
+	font-family: OpenSans;
+	line-height: 120%;
+	font-weight: 200;
+	height: auto;
+	width: 100%;
+}
+.bold {
+	font-weight: bold;
+}
+.container {
+	padding: 100px 0;
+	position: relative;
+}
+header {
+	/*height: 950px;*/
+	height: 0;
+	padding: 0 0 50% 0;
+	width: 100%;
+	background-color: #61a8bb;
+	background-image: url(../i/Take.png);
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+.tel {
+	position: absolute;
+	top: 25%;
+	right: 15%;
+	height: 107%;
+}
+header h2 {
+	font-size: 40px;
+	line-height: 200%;
+}
+.mb {
+	height: 0;
+}
+.mb1 {
+	margin-top: 20%;
+}
+.mb2 {
+	margin-top: 70px;
+}
+.info1 {
+	color: #959595;
+	font-size: 15px;
+}
+.info1 div.paddingBlock {
+	color: #fff;
+}
+.info1 .fa-heart-o {
+	position: absolute;
+	top: 80%;
+	left: 93%;
+}
+.fa-heart-o:hover {
+	color: #f22727;
+}
+
+.paddingBlock {
+	padding: 0 15px;
+}
+.paddingBlock1 {
+	padding: 15% 3% 15% 10%;
+}
+.paddingBlock2 {
+	padding: 100px 0px 150px 0px;
+}
+.paddingBlock3 {
+	padding: 50px 70px 50px 50px;
+}
+.paddingBlock4 {
+	padding-bottom: 20px;
+}
+.paddingBlock5 {
+	padding-bottom: 5px;
+}
+.pink {
+	background-color: #f5989d;
+	width: 100%;
+	height: 275px;
+}
+.viol {
+	background-color: #615f7d;
+	height: 275px;
+}
+.pict1 {
+	position: relative;
+	background-image: url(../i/4.png);
+	background-size: cover;
+	height: 275px;
+	padding: 5% 0 0 5%;
+}
+.pict2 {
+	position: relative;
+	background-image: url(../i/55.png);
+	background-size: cover;
+	height: 275px;
+}
+.lowgreen {
+	background-color: #82ca9c;
+	height: 275px;
+}
+.car {
+	/*height: 870px;*/
+	height: 0;
+	padding: 0 0 50% 0;
+	width: 100%;
+	color: #fff;
+	background-image: url(../i/1.png);
+	background-size: cover;
+}
+.car .container .row.mb1 {
+	line-height: 300%;
+}
+.info2 {
+	background-color: #82ca9c;
+	color: #fff;
+}
+
+.info3 {
+	background-color: #f6f7fa;
+}
+.violBut {
+	background-color: #bd8cbf;
+	color: #fff;
+	font-weight: bold;
+}
+.grayBut {
+	background-color: #e1e1e1;
+	color: #fff;
+	font-weight: bold;
+}
+.info3 .fa {
+	padding-right: 5px;
+}
+.info3 .fa:hover {
+	color: #ccc;
+}
+.rightBlockBg {
+	background-color: #fff;
+	box-shadow: 0 0 70px 0 #ccc;
+}
+button.info2 {
+	border: none;
+}
+footer {
+	background-color: #192431;
+	color: #f6f7fa;
+}
+footer .input-group {
+	padding-bottom: 10px;
+}
+footer .input-group .input-group-addon {
+	background-color: #82ca9c;
+}
+footer .input-group .input-group-addon:hover {
+	background-color: #abfac7;
+}
+.info1 h3 {
+	font-size: 40px;
+	color: #222626;
+	margin: 50px 0;
+}
+.info1 h4 {
+	font-size: 35px;
+	color: #fff;
+}
+.info2 h3 {
+	font-size: 40px;
+	color: #fff;
+	margin: 50px 0;
+}
+.car h2 {
+	font-size: 40px;
+}
+.info3 h3 {
+	font-size: 25px;
+	color: #9299a4;
+}
+.info3 .container {
+	color: #9299a4;
+}
+footer .newColor {
+	color: #57697f;
+}
+.arrow {
+    position: relative;
+	top: 5px;
+}
+.h4Up {
+	font-size: 40px;
+}

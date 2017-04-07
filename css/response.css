@@ -1,0 +1,101 @@
+@media (max-width: 639px) {
+	html {
+		overflow-x:  hidden;
+		padding: 0 5px;
+	}
+	.mb1 {
+	margin-top: 1%;
+	}
+	.car h2 {
+	font-size: 25px;
+	}
+	.car .container .row.mb1 {
+	line-height: 200%;
+	}
+	.car {
+		padding-bottom: 90%;
+	}
+	.info1 .container {
+		padding: 30px 0;
+	}
+	.info1 h3 {
+	line-height: 100%;
+	}
+	.info1 .row.mb2>div:nth-child(2) {
+	padding-top: 20px;
+	}
+	.info1 h4 {
+	font-size: 25px;
+	font-weight: bold;
+	}
+	.info2 .container {
+		padding: 50px 0;
+	}
+	.info3 .container {
+		padding: 30px 0;
+	}
+	footer .container {
+		padding: 40px 0;
+	}
+	.tel {
+		position: absolute;
+		top: 100%;
+		right: 1%;
+		height: 120%;
+	}
+}
+@media (min-width: 640px) and (max-width: 999px) {
+	html {
+		overflow-x:  hidden;
+		padding: 0 5px;
+	}
+	.mb1 {
+	margin-top: 1%;
+	}
+	.car h2 {
+	font-size: 25px;
+	}
+	.car .container .row.mb1 {
+	line-height: 200%;
+	}
+	.car {
+		padding-bottom: 60%;
+	}
+	.info1 .container {
+		padding: 30px 0;
+	}
+	.info1 h3 {
+	line-height: 100%;
+	}
+	.info1 .row.mb2>div:nth-child(2) {
+	padding-top: 20px;
+	}
+	.info2 .container {
+		padding: 50px 0;
+	}
+	.info3 .container {
+		padding: 30px 0;
+	}
+	footer .container {
+		padding: 40px 0;
+	}
+	.tel {
+		position: absolute;
+		top: 40%;
+		right: 1%;
+		height: 120%;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+	.car {
+		padding-bottom: 70%;
+	}
+	.tel {
+		position: absolute;
+		top: 30%;
+		right: 1%;
+		height: 120%;
+	}
+}
+@media (min-width: 1200px) {
+}
